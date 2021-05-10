@@ -1,0 +1,45 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin: 0;
+    min-width: 300px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    cursor: pointer;
+    position: relative;
+    padding: 12px 10px 12px 45px;
+    list-style-type:none;
+    background-color: skyblue;
+    font-size: 1.3rem;
+    user-select: none;
+    
+}
+
+ul li:nth-child(odd){
+    background-color: rgb(87, 107, 175);
+}
+
+ul li:hover{
+    background-color: rgb(35, 28, 131);
+    color:white;
+}
+
+.close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 1rem;
+}
+
+.close:hover{
+    background-color: rgb(209, 32, 32);
+    color:white;
+}
